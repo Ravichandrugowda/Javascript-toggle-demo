@@ -87,8 +87,3 @@ Pull requests are welcome. If you spot a typo, bug, or have a suggestion:
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
----
-
-> **Why this repo exists**
->
-> This tiny demo shows how a single HTML file can combine **structure**, **presentation**, and **behaviour** without any external dependencies – an ideal starting point for newcomers to web development.
