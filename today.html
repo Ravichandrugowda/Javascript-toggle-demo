@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi JavaScrict</title>
+    <style>
+        #Heading {
+            background-color: brown;
+            text-align: center;
+            color: white;
+        }
+        #B1 {
+            width: 100px;
+            background-color: green;
+            color: white;
+            border-radius: 30px;
+        }
+        #B2 {
+            width: 100px;
+            background-color: rebeccapurple;
+            color: white;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="Heading">Is JavaScrict is Easy</h1>
+    <button id="B1">Yes</button>
+    <button id="B2">No</button>
+</body>
+<script>
+  document.getElementById("B1").onclick = function(){
+    document.getElementById("Heading").innerHTML = "Yes JavaScrict is Easy guys"
+  }
+  document.getElementById("B2").onclick = function(){
+    document.getElementById("Heading").innerHTML = "No , if you are not practice"
+  }
+</script>
+</html>
